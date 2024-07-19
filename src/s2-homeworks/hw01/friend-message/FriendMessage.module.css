@@ -1,0 +1,125 @@
+.friendMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.friendImageAndText {
+  display: flex;
+  align-items: end;
+}
+
+.friendImageAndText img {
+  width: 48px;
+  height: 48px;
+}
+
+.friendText {
+  position: relative;
+  width: 414px;
+  height: 60px;
+  z-index: 10;
+  display: flex;
+  color: #000000;
+  padding-left: 20px;
+  flex-direction: column;
+}
+
+.friendText:after {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: -20px;
+  width: 110%;
+  height: 160%;
+  z-index: -1;
+  background-size: cover;
+
+  box-shadow: 0px 5px 20px 0px #1d212608;
+
+  background-color: #d9d9d9;
+  clip-path: polygon(
+    7.489% 25%,
+    7.489% 25%,
+    7.518% 23.378%,
+    7.601% 21.839%,
+    7.735% 20.404%,
+    7.914% 19.094%,
+    8.134% 17.929%,
+    8.391% 16.929%,
+    8.679% 16.116%,
+    8.995% 15.51%,
+    9.334% 15.131%,
+    9.692% 15%,
+    93.392% 15%,
+    93.392% 15%,
+    93.749% 15.131%,
+    94.088% 15.51%,
+    94.404% 16.116%,
+    94.693% 16.929%,
+    94.95% 17.929%,
+    95.17% 19.094%,
+    95.349% 20.404%,
+    95.482% 21.839%,
+    95.566% 23.378%,
+    95.595% 25%,
+    95.595% 65%,
+    95.595% 65%,
+    95.566% 66.622%,
+    95.482% 68.161%,
+    95.349% 69.596%,
+    95.17% 70.906%,
+    94.95% 72.071%,
+    94.693% 73.071%,
+    94.404% 73.884%,
+    94.088% 74.49%,
+    93.749% 74.869%,
+    93.392% 75%,
+    7.489% 75%,
+    4.405% 75%,
+    6.971% 67.719%,
+    6.971% 67.719%,
+    7.064% 67.425%,
+    7.149% 67.092%,
+    7.225% 66.726%,
+    7.293% 66.328%,
+    7.351% 65.903%,
+    7.4% 65.453%,
+    7.438% 64.982%,
+    7.466% 64.494%,
+    7.483% 63.992%,
+    7.489% 63.479%,
+    7.489% 25%
+  );
+  background-size: cover;
+}
+
+.friendName {
+  padding-top: 9px;
+  padding-left: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: #000000;
+}
+
+.friendMessageText {
+  padding-top: 4px;
+  padding-left: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: black;
+}
+
+.friendTime {
+  padding-top: 5px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12.19px;
+  color: #000000;
+}

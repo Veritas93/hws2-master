@@ -1,0 +1,130 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-bottom: 30px;
+  .message .message {
+    margin-top: 41px;
+    margin-bottom: 44px;
+    color: red;
+  }
+}
+
+.imageAndText {
+  margin-top: 21px;
+  display: flex;
+  justify-content: right;
+  flex-direction: row-reverse;
+}
+
+.imageAndText img {
+  width: 48px;
+  height: 48px;
+  margin-top: 14px;
+}
+
+.text {
+  position: relative;
+  width: 527px;
+  height: 60px;
+  z-index: 10;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #ffffff;
+}
+
+.text:after {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: -22px;
+  width: 108%;
+  height: 160%;
+  z-index: -1;
+  box-shadow: 0px 5px 20px 0px #1d212608;
+  background-color: #0066cc;
+  clip-path: polygon(
+    3.527% 25%,
+    3.527% 25%,
+    3.55% 23.378%,
+    3.617% 21.839%,
+    3.724% 20.404%,
+    3.868% 19.094%,
+    4.044% 17.929%,
+    4.249% 16.929%,
+    4.481% 16.116%,
+    4.734% 15.51%,
+    5.005% 15.131%,
+    5.291% 15%,
+    92.593% 15%,
+    92.593% 15%,
+    92.879% 15.131%,
+    93.15% 15.51%,
+    93.403% 16.116%,
+    93.634% 16.929%,
+    93.84% 17.929%,
+    94.016% 19.094%,
+    94.159% 20.404%,
+    94.266% 21.839%,
+    94.333% 23.378%,
+    94.356% 25%,
+    94.356% 62.658%,
+    94.356% 62.658%,
+    94.36% 63.101%,
+    94.37% 63.536%,
+    94.387% 63.963%,
+    94.41% 64.378%,
+    94.44% 64.779%,
+    94.475% 65.164%,
+    94.516% 65.531%,
+    94.563% 65.877%,
+    94.616% 66.201%,
+    94.674% 66.499%,
+    96.473% 75%,
+    92.945% 75%,
+    76.19% 75%,
+    5.291% 75%,
+    5.291% 75%,
+    5.005% 74.869%,
+    4.734% 74.49%,
+    4.481% 73.884%,
+    4.249% 73.071%,
+    4.044% 72.071%,
+    3.868% 70.906%,
+    3.724% 69.596%,
+    3.617% 68.161%,
+    3.55% 66.622%,
+    3.527% 65%,
+    3.527% 25%
+  );
+}
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  position: absolute;
+  top: 10px;
+  left: 425px;
+}
+
+.messageText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+
+.time {
+  padding-top: 5px;
+  padding-right: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12.19px;
+  color: #000000;
+}

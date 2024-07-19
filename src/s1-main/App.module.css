@@ -1,0 +1,34 @@
+.App {
+  --header_height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 131px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.hw {
+  border-top: #d9d9d9 1px solid;
+  border-bottom: #d9d9d9 1px solid;
+  width: 1280px;
+  min-height: 373px;
+  padding: 0 70px 0 70px;
+}
+
+.hwTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 0 70px 0 70px;
+  color: #000000;
+}
