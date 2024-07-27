@@ -64,7 +64,19 @@ function Affairs(props: AffairsPropsType) {
           Low
         </button>
       </div>
-      <div className={s.affairs}>{mappedAffairs}</div>
+      <div
+        className={
+          s.affairs +
+          ' ' +
+          (props.filter === 'high'
+            ? ' ' + s.affairs_has_high
+            : props.filter === 'low'
+            ? ' ' + s.affairs_has_low
+            : ' ' + s.affairs_has_all)
+        }
+      >
+        {mappedAffairs}
+      </div>
     </div>
   );
 }
