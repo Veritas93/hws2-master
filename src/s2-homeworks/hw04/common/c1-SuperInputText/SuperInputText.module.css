@@ -2,19 +2,35 @@
 }
 
 .input {
+  outline: none;
+  border: 1px solid black;
 }
 
 .inputWrapper {
 }
 
 .superInput {
+  border-radius: 5px;
+  height: 36px;
+  width: 372px;
+  outline: none;
 }
 
 .errorInput {
+  border-radius: 5px;
+  height: 36px;
+  width: 372px;
+  border-color: red;
+  outline: none;
 }
 
 .errorInput:focus {
+  outline: none;
 }
 
 .error {
+  position: absolute;
+  color: red;
+  top: 60px;
+  left: 0;
 }
