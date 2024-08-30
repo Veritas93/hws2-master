@@ -1,5 +1,31 @@
 .buttonsContainer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.get {
+  margin-left: 24px;
+  width: 129px;
+  height: 30px;
+  border: 1px solid #0066cc;
+  border-radius: 3px;
+  color: #0066cc;
+
+  background-color: #ffffff;
+}
+
+.save {
+  width: 116px;
+  height: 30px;
+  border: none;
+  background-color: #0066cc;
+  color: #ffffff;
 }
 
 .editableSpanContainer {
+  margin: 24px 0 16px;
+  width: 276px;
+  height: 36px;
 }
