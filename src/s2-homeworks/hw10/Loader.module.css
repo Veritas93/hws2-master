@@ -1,3 +1,14 @@
 .loader {
-    /*свг и/или анимация*/
+  margin-top: 43px;
+  height: 100%;
+
+  /*свг и/или анимация*/
 }
+
+.loaderItem {
+  width: 108px;
+  height: 108px;
+}
+
+
+
