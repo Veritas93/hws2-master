@@ -1,8 +1,33 @@
 .buttonsContainer {
+  margin-top: 33px;
+  button {
+    height: 30px;
+    margin-right: 24px;
+    &:first-child {
+      width: 119px;
+    }
+
+    &:nth-child(2) {
+      width: 123px;
+    }
+
+    &:nth-child(3) {
+      width: 165px;
+    }
+
+    &:last-child {
+      width: 116px;
+    }
+  }
 }
 
 .responseContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
 }
+
 
 .imageContainer {
 }
@@ -10,13 +35,28 @@
 .image {
 }
 
-.textContainer{
+.textContainer {
+  width: 510px;
 }
 
 .code {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
 }
 
 .text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+
+  margin-top: 12px;
 }
 .info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
 }
