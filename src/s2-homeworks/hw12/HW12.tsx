@@ -22,7 +22,6 @@ const HW12 = () => {
     // взять ид темы из редакса
     // const themeId = useSelector()
    const themeId = useSelector<ReduxType,number>(t => t.theme.themeId)
-   console.log(typeof themeId)
    const dispatch = useDispatch()
 
     const change = (id: string) => { // дописать функцию
